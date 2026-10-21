@@ -34,9 +34,7 @@ https://react-app-alpha-brown.vercel.app/
 
 ## 🎥 Demo
 
-*(Click the image to watch the video)*
-
-[![Watch the video]][(https://youtu.be/Bz2uu79kg-o)](https://youtu.be/Bz2uu79kg-o)
+[![Watch the video]](https://youtu.be/Bz2uu79kg-o)
 
 <br>
 
