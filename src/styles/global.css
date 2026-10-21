@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&family=PT+Mono&display=swap');
+:root {
+  /* 🎨 Кольори */
+  --blue-light: #4DB6E9;
+  --yellow: #FFD54F;
+  --gray-dark: #333333;
+  --white: #ffffff;
+  --black: #000000;
+  --blue-dark: #1E3A8A;
+  --purple: #7E57C2;
+  --turquoise: #26C6DA;
+  --yellow-s: #FBC02D;
+  --blue: #42A5F5;
+  --magenta: #E94DE6;
+  --pink: #E94D8B;
+  --pink-light: #F48FB1;
+
+  /* ✍️ Шрифти */
+  --font-title: 'Yanone Kaffeesatz', sans-serif;
+  --font-text: 'PT Mono', monospace;
+
+  /* 📏 Адаптивні розміри */
+  --h1-size: clamp(48px, 8vw, 100px);
+  --h2-size: clamp(50px, 8vw, 85px);
+  --h3-size: clamp(32px, 4vw, 60px);
+  --h4-size: clamp(18px, 4vw, 40px);
+  --h5-size: 24px;
+
+  --p-size-lg: clamp(16px, 2vw, 18px);
+  --p-size-sm: 16px;
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: var(--h1-size);
+  color: var(--blue-dark);
+}
+
+h2 {
+  font-family: var(--font-title);
+  font-size: var(--h2-size);
+  color: var(--blue-light);
+}
+
+h3 {
+  font-family: var(--font-title);
+  font-size: var(--h3-size);
+  color: var(--yellow);
+  line-height: 1;
+}
+
+p {
+  font-family: var(--font-text);
+  font-size: var(--p-size-sm);
+  color: var(--gray-dark);
+}
+
+.container {
+  max-width: 1200px;   /* або 1440px, залежно від дизайну */
+  width: 100%;         /* займає всю доступну ширину */
+  margin: 0 auto;      /* центрує блок */
+  padding-left: 15px;  /* відступи зліва */
+  padding-right: 15px; /* відступи справа */
+}
+
+.btn {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-text);
+  color: var(--blue-dark);
+  font-weight: 600;
+  border: 2px solid var(--blue-dark);
+  background: var(--pink-light);
+
+}
+
+.btn:hover {
+  background: var(--purple);
+  transform: translateY(-2px);
+  color: var(--white);
+}

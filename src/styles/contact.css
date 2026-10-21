@@ -1,0 +1,100 @@
+.signup-section {
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.signup-title {
+    display: block;       /* гарантує блочний елемент */
+  width: 100%;          /* займає всю ширину контейнера */
+  text-align: center;   /* вирівнює текст по центру */
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: var(--magenta);
+  font-size: var(--h1-size);
+  font-size: 210px;
+
+}
+.signup-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.signup-subtitle {
+  text-align: start;
+  margin-bottom: 30px;
+  color: var(--gray-light);
+}
+
+.signup-form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-family: var(--font-text);
+  color: var(--purple);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  border-radius: 8px;
+  border: 2px solid var(--blue-dark);
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px;
+  font-family: var(--font-text);
+  
+  color: var(--font-text);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+}
+option {
+    color: var(--blue-dark);
+}
+
+.signup-btn {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-text);
+  color: var(--blue-dark);
+  font-weight: 600;
+  border: 2px solid var(--blue-dark);
+  background: var(--pink-light);
+
+}
+
+.signup-btn:hover {
+  background: var(--purple);
+  transform: translateY(-2px);
+  color: var(--white);
+}
+.signup-left {
+    flex: 100%;
+}
+.signup-img {
+    flex: 100%;
+    height: auto;
+}
+.signup-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

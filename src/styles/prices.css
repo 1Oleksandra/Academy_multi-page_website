@@ -1,0 +1,94 @@
+.prices-top__img {
+    background: linear-gradient(270deg, #90e1eb, #26C6DA, #017180);
+     background-size: 600% 600%;
+  animation: gradientMove 8s ease infinite;
+}
+.prices-top__title {
+  color: var(--turquoise);
+}
+.prices-top__title span {
+  color: var(--pink);
+}
+
+.quote-section {
+  padding: 60px 20px;
+  /* background: var(--dark-bg); */
+  text-align: center;
+}
+/* quote --------------------------------------------*/
+.quote {
+  font-size: var(--h5-size);
+font-weight: bold;
+  line-height: 1.6;
+  color: var(--magenta);
+  margin-bottom: 20px;
+  position: relative;
+  font-family: var(--font-title);
+  font-family: var(--font-text);
+
+}
+
+.quote-author {
+  font-size: 1rem;
+  color: var(--gray-light);
+  display: block;
+}
+
+
+/* practice ------------------------------------------------ */
+
+.practice-section {
+  padding: 80px 20px;
+  /* background: var(--dark-bg); */
+  color: var(--white);
+}
+
+.practice-title {
+  text-align: center;
+  font-size: var(--h2-size);
+  margin-bottom: 30px;
+  color: var(--purple);
+}
+
+.practice-title span{
+   -webkit-text-stroke: 2px var(--purple);
+   color: white;
+}
+
+.practice-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--gray-light);
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.practice-card {
+  border-radius: 16px;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+
+.practice-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.practice-card p {
+  color: var(--gray-light);
+  line-height: 1.5;
+}
+
+.practice-icon {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  display: block;
+    background: none;
+  transform: none;
+  box-shadow: none;
+}
