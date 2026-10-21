@@ -1,70 +1,83 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎓 ITLEO Academy
 
-## Available Scripts
+## 📖 Project Description
 
-In the project directory, you can run:
+ITLEO Academy is an educational platform for adults and children offering a variety of learning programs and IT courses.
 
-### `npm start`
+The website was designed in Figma and developed with React. The main goal of the project was to make the academy's purpose clear from the very first screen while providing easy access to course information and educational programs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Since the platform contains a large amount of textual content, I avoided overwhelming the interface with excessive images and visual effects. Instead, I focused on a clean layout, bright color palette, and engaging micro-interactions that enhance the user experience while maintaining readability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The website includes parallax scrolling, animated code effects, dynamic banner color transitions, hover interactions for buttons and headings, and subtle animations across the interface. This approach creates a modern and dynamic learning platform while keeping all content easy to read and navigate.
 
-### `npm test`
+The project was designed in Figma and developed using React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## ⚙️ Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Figma — UI/UX design and prototyping
+- React — component-based development
+- JavaScript (ES6+)
+- CSS Modules
+- Responsive Web Design
+- Vercel — deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌐 Live Demo
 
-### `npm run eject`
+https://react-app-alpha-brown.vercel.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎥 Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*(Click the image to watch the video)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![Watch the video](YOUR_YOUTUBE_THUMBNAIL)](https://youtu.be/Bz2uu79kg-o)
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✨ Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Educational platform for adults and children
+- Course catalog and training programs
+- Responsive design for all devices
+- Interactive user interface
+- Smooth animations and transitions
+- Reusable React components
+- Modern and clean UI/UX
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📱 Responsiveness
 
-### Analyzing the Bundle Size
+The website displays correctly on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- 📱 Mobile devices
+- 💻 Tablets
+- 🖥️ Desktop devices
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 How to Run
 
-### Advanced Configuration
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git clone https://github.com/1Oleksandra/ITLEO-Academy.git
+```
 
-### Deployment
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm install
+```
 
-### `npm run build` fails to minify
+Run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run dev
+```
