@@ -36,7 +36,7 @@ https://react-app-alpha-brown.vercel.app/
 
 *(Click the image to watch the video)*
 
-[![Watch the video](YOUR_YOUTUBE_THUMBNAIL)](https://youtu.be/Bz2uu79kg-o)
+[![Watch the video]](https://youtu.be/Bz2uu79kg-o)
 
 <br>
 
